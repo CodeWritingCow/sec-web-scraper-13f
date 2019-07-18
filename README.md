@@ -1,5 +1,5 @@
-# EDGAR Python Web Scraper
-This repository contains Gary Pang's Python Web scraper for parsing fund holdings pulled from SEC website, [EDGAR](https://www.sec.gov/edgar/searchedgar/companysearch.html), and writing a .tsv file from the data.
+# SEC Python Web Scraper
+This repository contains a Python Web scraper for parsing 13F filings (mutual fund holdings) from SEC's website, [EDGAR](https://www.sec.gov/edgar/searchedgar/companysearch.html), and writing a .tsv file from the data.
 
 
 ## Requirements
