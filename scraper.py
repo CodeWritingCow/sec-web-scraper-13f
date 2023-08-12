@@ -78,7 +78,7 @@ def xml_to_csv(soup_xml, name):
             "Investment Discretion": investmentdiscretion.text,
             "Voting Sole / Shared / None": f"{sole.text} / {shared.text} / {none.text}"
         }
-        df = df.append(row, ignore_index=True)
+        df = df._append(row, ignore_index=True)
 
 
     df.to_csv(f"{name}.csv")
